@@ -42,6 +42,20 @@ return [
             'visibility' => 'public',
         ],
 
+        'profiles' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/profiles'),
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+        ],
+
+        'posts' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/posts'),
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),
