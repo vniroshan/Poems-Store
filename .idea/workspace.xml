@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a03199-79ea-4a74-aead-b2feb057fb57" name="Default Changelist" comment="Created Auth Actions">
+    <list default="true" id="91a03199-79ea-4a74-aead-b2feb057fb57" name="Default Changelist" comment="Finished Post,comments and likes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/app/Http/Controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +97,7 @@
       <updated>1625105274580</updated>
       <workItem from="1625105275668" duration="10757000" />
       <workItem from="1625290269529" duration="14490000" />
-      <workItem from="1625332566604" duration="7735000" />
+      <workItem from="1625332566604" duration="8115000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1625106777835</created>
@@ -131,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625291917857</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finished Post,comments and likes">
+      <created>1625344067879</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625344067879</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +156,8 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="first commit" />
     <MESSAGE value="Created Auth Actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Auth Actions" />
+    <MESSAGE value="Finished Post,comments and likes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Post,comments and likes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-782" y="294" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1625295194238">
@@ -168,10 +172,10 @@
       <screen x="-1024" y="176" width="1024" height="728" />
     </state>
     <state x="-732" y="281" key="FileChooserDialogImpl/0.0.1536.824/-1024.176.1024.728@-1024.176.1024.728" timestamp="1625106550554" />
-    <state x="-920" y="272" key="Vcs.Push.Dialog.v2" timestamp="1625291920654">
+    <state x="-920" y="272" key="Vcs.Push.Dialog.v2" timestamp="1625344212679">
       <screen x="-1024" y="176" width="1024" height="728" />
     </state>
-    <state x="-920" y="272" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1024.176.1024.728@-1024.176.1024.728" timestamp="1625291920654" />
+    <state x="-920" y="272" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1024.176.1024.728@-1024.176.1024.728" timestamp="1625344212679" />
     <state x="-856" y="250" key="run.anything.popup" timestamp="1625306780815">
       <screen x="-1024" y="176" width="1024" height="728" />
     </state>
