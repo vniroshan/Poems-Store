@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,8 +22,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a03199-79ea-4a74-aead-b2feb057fb57" name="Default Changelist" comment="Finished Post,comments and likes">
+    <list default="true" id="91a03199-79ea-4a74-aead-b2feb057fb57" name="Default Changelist" comment="Frontend Added">
+      <change afterPath="$PROJECT_DIR$/frontend/lib/constant.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/lib/models/api_response.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/lib/models/user.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/lib/screens/home.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/lib/screens/loading.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/lib/screens/login.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/lib/screens/register.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/lib/services/user_service.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Poems Store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Poems Store.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/test/widget_test.dart" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +95,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -85,9 +106,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="91a03199-79ea-4a74-aead-b2feb057fb57" name="Default Changelist" comment="" />
@@ -98,6 +123,9 @@
       <workItem from="1625105275668" duration="10757000" />
       <workItem from="1625290269529" duration="14490000" />
       <workItem from="1625332566604" duration="8115000" />
+      <workItem from="1625363502807" duration="1598000" />
+      <workItem from="1625476076121" duration="720000" />
+      <workItem from="1625552908966" duration="1208000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1625106777835</created>
@@ -134,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625344067879</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Frontend Added">
+      <created>1625363910795</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625363910795</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +192,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="Created Auth Actions" />
     <MESSAGE value="Finished Post,comments and likes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Post,comments and likes" />
+    <MESSAGE value="Frontend Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Frontend Added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-782" y="294" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1625295194238">
@@ -168,14 +204,14 @@
       <screen x="-1024" y="176" width="1024" height="728" />
     </state>
     <state x="-1024" y="192" key="DiffContextDialog/0.0.1536.824/-1024.176.1024.728@-1024.176.1024.728" timestamp="1625112074445" />
-    <state x="-732" y="281" key="FileChooserDialogImpl" timestamp="1625106550554">
+    <state x="-732" y="281" key="FileChooserDialogImpl" timestamp="1625405065726">
       <screen x="-1024" y="176" width="1024" height="728" />
     </state>
-    <state x="-732" y="281" key="FileChooserDialogImpl/0.0.1536.824/-1024.176.1024.728@-1024.176.1024.728" timestamp="1625106550554" />
-    <state x="-920" y="272" key="Vcs.Push.Dialog.v2" timestamp="1625344212679">
+    <state x="-732" y="281" key="FileChooserDialogImpl/0.0.1536.824/-1024.176.1024.728@-1024.176.1024.728" timestamp="1625405065726" />
+    <state x="-920" y="272" key="Vcs.Push.Dialog.v2" timestamp="1625363916539">
       <screen x="-1024" y="176" width="1024" height="728" />
     </state>
-    <state x="-920" y="272" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1024.176.1024.728@-1024.176.1024.728" timestamp="1625344212679" />
+    <state x="-920" y="272" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1024.176.1024.728@-1024.176.1024.728" timestamp="1625363916539" />
     <state x="-856" y="250" key="run.anything.popup" timestamp="1625306780815">
       <screen x="-1024" y="176" width="1024" height="728" />
     </state>
