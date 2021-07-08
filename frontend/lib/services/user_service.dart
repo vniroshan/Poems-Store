@@ -47,7 +47,7 @@ Future<ApiResponse> registerUser(
       'name': name,
       'email': email,
       'password': password,
-      'password-confirmation': password
+      'password_confirmation': password
     });
 
     switch (response.statusCode) {

@@ -22,24 +22,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a03199-79ea-4a74-aead-b2feb057fb57" name="Default Changelist" comment="Frontend Added">
-      <change afterPath="$PROJECT_DIR$/frontend/lib/constant.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/lib/models/api_response.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/lib/models/user.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/lib/screens/home.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/lib/screens/loading.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/lib/screens/login.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/lib/screens/register.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/lib/services/user_service.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Poems Store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Poems Store.iml" afterDir="false" />
+    <list default="true" id="91a03199-79ea-4a74-aead-b2feb057fb57" name="Default Changelist" comment="Loading, Login page Added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/test/widget_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/constant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/constant.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/models/user.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/models/user.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/screens/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/screens/home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/screens/login.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/screens/login.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/screens/register.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/screens/register.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/services/user_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/services/user_service.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +117,9 @@
       <workItem from="1625363502807" duration="1598000" />
       <workItem from="1625476076121" duration="720000" />
       <workItem from="1625552908966" duration="1208000" />
+      <workItem from="1625624136559" duration="1323000" />
+      <workItem from="1625636214698" duration="1520000" />
+      <workItem from="1625721050097" duration="5403000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1625106777835</created>
@@ -169,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625363910795</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Loading, Login page Added">
+      <created>1625624277893</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1625624277893</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +194,8 @@
     <MESSAGE value="Created Auth Actions" />
     <MESSAGE value="Finished Post,comments and likes" />
     <MESSAGE value="Frontend Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Frontend Added" />
+    <MESSAGE value="Loading, Login page Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loading, Login page Added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-782" y="294" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1625295194238">
@@ -208,10 +210,14 @@
       <screen x="-1024" y="176" width="1024" height="728" />
     </state>
     <state x="-732" y="281" key="FileChooserDialogImpl/0.0.1536.824/-1024.176.1024.728@-1024.176.1024.728" timestamp="1625405065726" />
-    <state x="-920" y="272" key="Vcs.Push.Dialog.v2" timestamp="1625363916539">
+    <state x="-720" y="260" key="RollbackChangesDialog" timestamp="1625641684410">
       <screen x="-1024" y="176" width="1024" height="728" />
     </state>
-    <state x="-920" y="272" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1024.176.1024.728@-1024.176.1024.728" timestamp="1625363916539" />
+    <state x="-720" y="260" key="RollbackChangesDialog/0.0.1536.824/-1024.176.1024.728@-1024.176.1024.728" timestamp="1625641684410" />
+    <state x="-920" y="272" key="Vcs.Push.Dialog.v2" timestamp="1625624286131">
+      <screen x="-1024" y="176" width="1024" height="728" />
+    </state>
+    <state x="-920" y="272" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1024.176.1024.728@-1024.176.1024.728" timestamp="1625624286131" />
     <state x="-856" y="250" key="run.anything.popup" timestamp="1625306780815">
       <screen x="-1024" y="176" width="1024" height="728" />
     </state>

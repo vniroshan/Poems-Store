@@ -39,7 +39,7 @@ class AuthController extends Controller
         $attrs = $request->validate([
             'email' => 'required|email',
             'password' => 'required|min:6'
-        ],200);
+        ]);
 
        //attempt login
         if(!Auth::attempt($attrs))

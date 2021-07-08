@@ -1,7 +1,7 @@
 // Strings
 import 'package:flutter/material.dart';
 
-const baseURL = 'http://localhost:8000/api';
+const baseURL = 'http://192.168.1.100:8000/api';
 const loginURL = baseURL + '/login';
 const registerURL = baseURL + '/register';
 const logoutURL = baseURL + '/logout';
@@ -21,4 +21,38 @@ InputDecoration kInputDecoration(String label) {
       contentPadding: EdgeInsets.all(10),
       border: OutlineInputBorder(
           borderSide: BorderSide(width: 1, color: Colors.black)));
+}
+
+//button
+
+TextButton kTextButton(String label, Function onPressed) {
+  return TextButton(
+    child: Text(
+      label,
+      style: TextStyle(color: Colors.white),
+    ),
+    style: ButtonStyle(
+      backgroundColor: MaterialStateColor.resolveWith((states) => Colors.blue),
+      padding: MaterialStateProperty.resolveWith(
+          (states) => EdgeInsets.symmetric(vertical: 10)),
+    ),
+    onPressed: () => onPressed(),
+  );
+}
+
+//loginRegisterHint
+Row kLoginRegisterHint(String text, String label, Function onTap) {
+  return Row(
+    mainAxisAlignment: MainAxisAlignment.center,
+    children: [
+      Text(text),
+      GestureDetector(
+        child: Text(
+          label,
+          style: TextStyle(color: Colors.blue),
+        ),
+        onTap: () => onTap(),
+      ),
+    ],
+  );
 }
